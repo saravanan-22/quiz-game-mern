@@ -5,8 +5,8 @@ A full-stack quiz game where users sign up, pick a category, answer timed questi
 **▶ Live demo: [quizgame2023.vercel.app](https://quizgame2023.vercel.app/)**
 
 <p>
+  <img src="screenshots/login.png" width="49%" alt="Login" />
   <img src="https://raw.githubusercontent.com/saravanan-22/react-portfolio/main/src/images/quiz_image1.jpg" width="49%" alt="Quiz home" />
-  <img src="https://raw.githubusercontent.com/saravanan-22/react-portfolio/main/src/images/quiz_image2.jpg" width="49%" alt="Quiz question" />
 </p>
 
 ## Features
@@ -33,9 +33,12 @@ cd mern-quiz-app
 
 # backend
 cd server && npm install
-# create server/.env with:  PORT=5000  CONNECTION_URL=<your MongoDB URI>
+cp .env.example .env   # then add your MongoDB URI
 npm start
 
 # frontend (new terminal)
 cd client && npm install && npm start
 ```
+
+## License
+[MIT](LICENSE) © Saravanan
