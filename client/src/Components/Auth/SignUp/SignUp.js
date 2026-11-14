@@ -9,6 +9,7 @@ import "./singUp.css";
 import { useState } from "react";
 import axios from "axios";
 import background from "../../images/login_background.jpg";
+import { API } from "../../../api";
 
 const SignUp = () => {
   const [userName, setUserName] = useState("");
@@ -43,7 +44,7 @@ const SignUp = () => {
     }
 
     axios
-      .post("https://muddy-bat-moccasins.cyclic.cloud/api/v1/users/create", {
+      .post(`${API}/users/create`, {
         profileImage: imageData,
         username: userName,
         email: email,
@@ -57,7 +58,10 @@ const SignUp = () => {
       })
       .catch((err) => {
         console.log(err);
-        alert(err);
+        const message =
+          (err.response && err.response.data && err.response.data.message) ||
+          "Couldn't reach the server. It may be waking up (free hosting), so try again in about 30 seconds.";
+        alert(message);
       });
   };
 

@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import image from "../images/profile_background.jpg";
 import axios from "axios";
 import "./ProfilePage.css";
+import { API } from "../../api";
 
 const ProfilePage = () => {
   const [usersData, setUsersData] = useState(); //
@@ -29,31 +30,23 @@ const ProfilePage = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const userId = localStorage.getItem("uid");
+    setUserId(userId);
+    if (!userId) {
+      setFoundUser(null);
+      return;
+    }
     axios
-      .get("https://muddy-bat-moccasins.cyclic.cloud/api/v1/users")
+      .get(`${API}/users/getCurrentPoints/${userId}`)
       .then((res) => {
-        const fetchedUsers = res.data.data;
-        setUsersData(fetchedUsers);
-
-        // Find the user by email
-        const userId = localStorage.getItem("uid");
-        setUserId(userId);
-        const user = fetchedUsers.find((user) => user._id === userId);
-        // console.log(user);
-
-        if (user) {
-          setFoundUser(user);
-          const delay = 2000;
-          setTimeout(() => {
-            setEditedImage(user.profileImage || "Loading...");
-            setEditedUsername(user.username || "Loading...");
-            setEditedEmail(user.email || "Loading...");
-            setEditedPassword(user.password || "Loading...");
-            setEditedPhoneNumber(user.ph || "Loading...");
-          }, delay);
-        } else {
-          setFoundUser(null);
-        }
+        const user = res.data.data;
+        setUsersData([user]);
+        setFoundUser(user);
+        setEditedImage(user.profileImage || "");
+        setEditedUsername(user.username || "");
+        setEditedEmail(user.email || "");
+        setEditedPassword(""); // blank = keep the current password
+        setEditedPhoneNumber(user.ph || "");
       })
       .catch((err) => {
         console.error("Error fetching user data:", err);
@@ -81,7 +74,7 @@ const ProfilePage = () => {
     e.preventDefault();
     axios
       .put(
-        `https://muddy-bat-moccasins.cyclic.cloud/api/v1/users/editedUserData/singleUser/${userId}`,
+        `${API}/users/editedUserData/singleUser/${userId}`,
         {
           userImage: update,
           username: editedUsername,
@@ -105,7 +98,7 @@ const ProfilePage = () => {
     if (window.confirm("Are you sure you want to delete your account?")) {
       axios
         .delete(
-          `https://muddy-bat-moccasins.cyclic.cloud/api/v1/users/deleteAccount/${userId}`
+          `${API}/users/deleteAccount/${userId}`
         )
         .then((res) => {
           alert("account deleted successfully");
@@ -246,7 +239,8 @@ const ProfilePage = () => {
                   type="password"
                   value={editedPassword}
                   onChange={(e) => setEditedPassword(e.target.value)}
-                  required
+                  placeholder="Leave blank to keep current"
+                  minLength={6}
                   style={{
                     display: "inline-block",
                     width: "70%",

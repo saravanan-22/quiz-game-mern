@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <Context>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/SignUp" element={<SignUp />} />
             <Route path="/ProfilePage" element={<ProfilePage />} />
-            <Route path="ResetPassword" element={<ResetPassword />} />
+            <Route path="/ResetPassword" element={<ResetPassword />} />
             <Route path="/GK" element={<Gk />} />
             <Route path="/Points" element={<Points />} />
           </Routes>

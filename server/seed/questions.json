@@ -1,0 +1,1122 @@
+{
+ "Gk": [
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "What are Panama hats made out of?",
+   "correct_answer": "Straw",
+   "incorrect_answers": [
+    "Silk",
+    "Hemp",
+    "Flax"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "Which of these colours is NOT featured in the logo for Google?",
+   "correct_answer": "Pink",
+   "incorrect_answers": [
+    "Yellow",
+    "Blue",
+    "Green"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "Which of the following presidents is not on Mount Rushmore?",
+   "correct_answer": "John F. Kennedy",
+   "incorrect_answers": [
+    "Theodore Roosevelt",
+    "Abraham Lincoln",
+    "Thomas Jefferson"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "The “fairy” type made it’s debut in which generation of the Pokemon core series games?",
+   "correct_answer": "6th",
+   "incorrect_answers": [
+    "2nd",
+    "7th",
+    "4th"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "What is \"dabbing\"?",
+   "correct_answer": "A dance",
+   "incorrect_answers": [
+    "A medical procedure",
+    "A sport",
+    "A language"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "What is a Burgee?",
+   "correct_answer": "A flag",
+   "incorrect_answers": [
+    "A rope",
+    "A window",
+    "A type of food"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "In 2013 how much money was lost by Nigerian scams?",
+   "correct_answer": "$12.7 Billion",
+   "incorrect_answers": [
+    "$95 Million",
+    "$956 Million",
+    "$2.7 Billion"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "What is Tasmania?",
+   "correct_answer": "An Australian State",
+   "incorrect_answers": [
+    "A flavor of Ben and Jerry's ice-cream",
+    "A Psychological Disorder",
+    "The Name of a Warner Brothers Cartoon Character"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
+   "correct_answer": "St. Peter's Basilica",
+   "incorrect_answers": [
+    "Catania Cathedral",
+    "St. Mark’s Basilica",
+    "The Duomo of Florence"
+   ]
+  },
+  {
+   "category": "General Knowledge",
+   "questionType": "multiple",
+   "question": "The drug cartel run by Pablo Escobar originated in which South American city?",
+   "correct_answer": "Medellín",
+   "incorrect_answers": [
+    "Bogotá",
+    "Quito",
+    "Cali"
+   ]
+  }
+ ],
+ "sports": [
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "Which basketball team has attended the most NBA grand finals?",
+   "correct_answer": "Los Angeles Lakers",
+   "incorrect_answers": [
+    "Boston Celtics",
+    "Philadelphia 76ers",
+    "Golden State Warriors"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "In golf, what name is given to a hole score of two under par?",
+   "correct_answer": "Eagle",
+   "incorrect_answers": [
+    "Birdie",
+    "Bogey",
+    "Albatross"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "Who was the first footballer to score 200 goals in the English Premier League?",
+   "correct_answer": "Alan Shearer",
+   "incorrect_answers": [
+    "Wayne Rooney",
+    "Robbie Fowler",
+    "Thierry Henry"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "In baseball, how many fouls are an out?",
+   "correct_answer": "0",
+   "incorrect_answers": [
+    "5",
+    "3",
+    "2"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "Which car manufacturer won the 2017 24 Hours of Le Mans?",
+   "correct_answer": "Porsche",
+   "incorrect_answers": [
+    "Toyota",
+    "Audi",
+    "Chevrolet"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "Edson Arantes do Nascimento is the full name of which legendary football player?",
+   "correct_answer": "Pelé",
+   "incorrect_answers": [
+    "Romário",
+    "Zico",
+    "Ronaldinho"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "The 1988 Formula 1 season had McLaren win all but one race, what race did they not win?",
+   "correct_answer": "Italian Grand Prix",
+   "incorrect_answers": [
+    "Japanese Grand Prix",
+    "Monaco Grand Prix",
+    "Brazilian Grand Prix"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "Etihad Stadium is the home stadium for which team?",
+   "correct_answer": "Manchester City",
+   "incorrect_answers": [
+    "Manchester United",
+    "Arsenal",
+    "Blackpool"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
+   "correct_answer": "Mike Tyson",
+   "incorrect_answers": [
+    "Roy Jones Jr.",
+    "Evander Holyfield",
+    "Lennox Lewis"
+   ]
+  },
+  {
+   "category": "Sports",
+   "questionType": "multiple",
+   "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+   "correct_answer": "Madeira",
+   "incorrect_answers": [
+    "Terceira",
+    "Santa Maria",
+    "Porto Santo"
+   ]
+  }
+ ],
+ "Computers": [
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "What is the maximum value of a 32-bit signed binary integer?",
+   "correct_answer": "2,147,483,647",
+   "incorrect_answers": [
+    "255",
+    "2048",
+    "9,223,372,036,854,775,807"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "What is the name of the default theme that is installed with Windows XP?",
+   "correct_answer": "Luna",
+   "incorrect_answers": [
+    "Neptune",
+    "Whistler",
+    "Bliss"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+   "correct_answer": "ADPCM Sampler",
+   "incorrect_answers": [
+    "FM Synthesizer",
+    "Programmable Sound Generator (PSG)",
+    "PCM Sampler"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "Which of these people was NOT a founder of Apple Inc?",
+   "correct_answer": "Jonathan Ive",
+   "incorrect_answers": [
+    "Steve Jobs",
+    "Ronald Wayne",
+    "Steve Wozniak"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "What is the code name for the mobile operating system Android 7.0?",
+   "correct_answer": "Nougat",
+   "incorrect_answers": [
+    "Ice Cream Sandwich",
+    "Jelly Bean",
+    "Marshmallow"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "Which of the following is the oldest of these computers by release date?",
+   "correct_answer": "TRS-80",
+   "incorrect_answers": [
+    "Commodore 64",
+    "ZX Spectrum",
+    "Apple 3"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "Who invented the \"Spanning Tree Protocol\"?",
+   "correct_answer": "Radia Perlman",
+   "incorrect_answers": [
+    "Paul Vixie",
+    "Vint Cerf",
+    "Michael Roberts"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+   "correct_answer": "Hexidecimal",
+   "incorrect_answers": [
+    "Binary",
+    "Duodecimal",
+    "Octal"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "Which of these programming languages is a low-level language?",
+   "correct_answer": "Assembly",
+   "incorrect_answers": [
+    "Python",
+    "C#",
+    "Pascal"
+   ]
+  },
+  {
+   "category": "Science: Computers",
+   "questionType": "multiple",
+   "question": "What does CPU stand for?",
+   "correct_answer": "Central Processing Unit",
+   "incorrect_answers": [
+    "Central Process Unit",
+    "Computer Personal Unit",
+    "Central Processor Unit"
+   ]
+  }
+ ],
+ "History": [
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "What year was the first Pizza Hut restaurant opened?",
+   "correct_answer": "1958",
+   "incorrect_answers": [
+    "1976",
+    "1965",
+    "1942"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "Who was the first mammal successfully launched into Earth's orbit?",
+   "correct_answer": "Laika, the dog",
+   "incorrect_answers": [
+    "Ham, the chimpanzee",
+    "Baker, the monkey",
+    "Belka, the dog"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "According to legend, the ancient Greeks constructed a huge wooden model of which animal to gain entrance to Troy?",
+   "correct_answer": "Horse",
+   "incorrect_answers": [
+    "Goat",
+    "Elephant",
+    "Wolf"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "Where was Portuguese explorer Ferdinand Magellan killed in 1521?",
+   "correct_answer": "The Phillipines",
+   "incorrect_answers": [
+    "Canary Islands",
+    "Guam",
+    "Argentina"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "In what year did Kentucky become the 15th state to join the union?",
+   "correct_answer": "1792",
+   "incorrect_answers": [
+    "1782",
+    "1798",
+    "1788"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "When was \"The Gadget\", the first nuclear device to be detonated, tested?",
+   "correct_answer": "July 16, 1945",
+   "incorrect_answers": [
+    "June 22, 1945",
+    "August 6, 1945",
+    "April 5, 1945"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "The Arab Spring was a series of protests and rebellions that began in which of these Arab nations?",
+   "correct_answer": "Tunisia",
+   "incorrect_answers": [
+    "Morocco",
+    "Syria",
+    "Egypt"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "In 1547 who became the 1st Tsar of Russia",
+   "correct_answer": "Ivan the Terrible",
+   "incorrect_answers": [
+    "Alexis of Russia",
+    "Mikhail Romanov",
+    "Peter the Great"
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "Who was the first president born in the independent United States?",
+   "correct_answer": "Martin Van Buren",
+   "incorrect_answers": [
+    "John Adams",
+    "George Washington",
+    "James Monroe "
+   ]
+  },
+  {
+   "category": "History",
+   "questionType": "multiple",
+   "question": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what?",
+   "correct_answer": "Making jams and jellies",
+   "incorrect_answers": [
+    "Teaching parrots to talk",
+    "Cheating at card games",
+    "Digging graves"
+   ]
+  }
+ ],
+ "Politics": [
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "Which U.S. president is said to have had the longest beard?",
+   "correct_answer": "Rutherford B. Hayes",
+   "incorrect_answers": [
+    "Zachary Taylor",
+    "John Quincy Adams",
+    "James A. Garfield"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "Who was elected leader of the UK Labour Party in September 2015?",
+   "correct_answer": "Jeremy Corbyn",
+   "incorrect_answers": [
+    "Ed Miliband",
+    "David Cameron",
+    "Theresa May"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "\"Yes, America Can!\" was this United States politician's de facto campaign slogan in 2004.",
+   "correct_answer": "George W. Bush",
+   "incorrect_answers": [
+    "John Kerry",
+    "Barack Obama",
+    "Al Gore"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "What is centralism?",
+   "correct_answer": " Concentration of power and authority in a central organization.",
+   "incorrect_answers": [
+    "Conforming to one single common political agenda.",
+    "Remaining politically neutral.",
+    "The grey area in the spectrum of political left and right."
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "Which of the following United States senators is known for performing a 24-hour long filibuster?",
+   "correct_answer": "Strom Thurmond",
+   "incorrect_answers": [
+    "Roy Blunt",
+    "John Barrasso",
+    "Chuck Schumer"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "What is the name of Niccolò Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?",
+   "correct_answer": "The Prince",
+   "incorrect_answers": [
+    "The Rape of Lucrece",
+    "Will to Power",
+    "Love's Labours Lost"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "What year did Gerald Ford Become President?",
+   "correct_answer": "1974",
+   "incorrect_answers": [
+    "1977",
+    "1973",
+    "1969"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "Who was the 40th President of the USA?",
+   "correct_answer": "Ronald Reagan",
+   "incorrect_answers": [
+    "Jimmy Carter",
+    "Bill Clinton",
+    "Richard Nixon"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "Who was the British Prime Minister at the outbreak of the Second World War?",
+   "correct_answer": "Neville Chamberlain",
+   "incorrect_answers": [
+    "Clement Attlee",
+    "Winston Churchill",
+    "Stanley Baldwin"
+   ]
+  },
+  {
+   "category": "Politics",
+   "questionType": "multiple",
+   "question": "The largest consumer market in 2015 was...",
+   "correct_answer": "The United States of America",
+   "incorrect_answers": [
+    "Germany",
+    "Japan",
+    "United Kingdom"
+   ]
+  }
+ ],
+ "Art": [
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "Which artist painted “The Treachery of Images,” a painting of a pipe with the description \"this is not a pipe\"?",
+   "correct_answer": "Magritte",
+   "incorrect_answers": [
+    "Matisse",
+    "Modigliani",
+    "Munch "
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "Which Greek sculptor designed the Athena Parthenos statue inside the Parthenon?",
+   "correct_answer": "Phidias",
+   "incorrect_answers": [
+    "Scopas",
+    "Hesiod",
+    "Praxiteles"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "Albrecht Dürer's birthplace and place of death were in...",
+   "correct_answer": "Nürnberg",
+   "incorrect_answers": [
+    "Augsburg",
+    "Bamberg",
+    "Berlin"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "Which painting was not made by Vincent Van Gogh?",
+   "correct_answer": "The Ninth Wave",
+   "incorrect_answers": [
+    "Café Terrace at Night",
+    "Bedroom In Arles",
+    "Starry Night"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "Who painted \"Swans Reflecting Elephants\", \"Sleep\", and \"The Persistence of Memory\"?",
+   "correct_answer": "Salvador Dali",
+   "incorrect_answers": [
+    "Jackson Pollock",
+    "Vincent van Gogh",
+    "Edgar Degas"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "What French sculptor designed the Statue of Liberty? ",
+   "correct_answer": "Frédéric Auguste Bartholdi",
+   "incorrect_answers": [
+    "Jean-Léon Gérôme",
+    "Auguste Rodin",
+    "Henri Matisse"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "Who painted the biblical fresco The Creation of Adam?",
+   "correct_answer": "Michelangelo",
+   "incorrect_answers": [
+    "Leonardo da Vinci",
+    "Caravaggio",
+    "Rembrandt"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "What nationality was the famous artist Van Gogh?",
+   "correct_answer": "Dutch",
+   "incorrect_answers": [
+    "French",
+    "Russian",
+    "Polish"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "In \"Last Supper\" by Leonardo Da Vinci, what two colors were the robes worn by Jesus?",
+   "correct_answer": "Red and Blue",
+   "incorrect_answers": [
+    "Red and White",
+    "Red and Yellow",
+    "Red and Black"
+   ]
+  },
+  {
+   "category": "Art",
+   "questionType": "multiple",
+   "question": "Who painted The Starry Night?",
+   "correct_answer": "Vincent van Gogh",
+   "incorrect_answers": [
+    "Pablo Picasso",
+    "Leonardo da Vinci",
+    "Michelangelo"
+   ]
+  }
+ ],
+ "Science&Nature": [
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "How many baby/milk teeth does a human child have in total?",
+   "correct_answer": "20",
+   "incorrect_answers": [
+    "10",
+    "15",
+    "25"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "What is the unit of electrical resistance?",
+   "correct_answer": "Ohm",
+   "incorrect_answers": [
+    "Mho",
+    "Tesla",
+    "Joule"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "The element involved in making human blood red is which of the following?",
+   "correct_answer": "Iron",
+   "incorrect_answers": [
+    "Copper",
+    "Iridium",
+    "Cobalt"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "What is the elemental symbol for mercury?",
+   "correct_answer": "Hg",
+   "incorrect_answers": [
+    "Me",
+    "Mc",
+    "Hy"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
+   "correct_answer": "Dunning-Kruger effect",
+   "incorrect_answers": [
+    "Meyers-Briggs effect",
+    "Müller-Lyer effect",
+    "Freud-Hall effect"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "What is radiation measured in?",
+   "correct_answer": "Gray ",
+   "incorrect_answers": [
+    "Watt",
+    "Decibel",
+    "Kelvin"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "Which planet did the \"Viking 1\" spacecraft send surface images of, starting in 1976?",
+   "correct_answer": "Mars",
+   "incorrect_answers": [
+    "Saturn",
+    "Jupiter",
+    "Venus"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "Gannymede is the largest moon of which planet?",
+   "correct_answer": "Jupiter",
+   "incorrect_answers": [
+    "Uranus",
+    "Neptune",
+    "Mars"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "Botanically speaking, which of these fruits is NOT a berry?",
+   "correct_answer": "Strawberry",
+   "incorrect_answers": [
+    "Blueberry",
+    "Banana",
+    "Concord Grape"
+   ]
+  },
+  {
+   "category": "Science & Nature",
+   "questionType": "multiple",
+   "question": "What did Gregory Mendel use to test genetic crossovers?",
+   "correct_answer": "Peas",
+   "incorrect_answers": [
+    "Cats",
+    "Flowers",
+    "Parrots"
+   ]
+  }
+ ],
+ "Animals": [
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "Which dog breed is named after a region in Croatia",
+   "correct_answer": "Dalmatian",
+   "incorrect_answers": [
+    "Pekingnese",
+    "Chihuahua ",
+    "Pomeranian"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+   "correct_answer": "Krill",
+   "incorrect_answers": [
+    "Lobsters",
+    "Shrimp",
+    "Crabs"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "What is the collective noun for a group of crows?",
+   "correct_answer": "Murder",
+   "incorrect_answers": [
+    "Pack",
+    "Gaggle",
+    "Herd"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+   "correct_answer": "Capture scent particles",
+   "incorrect_answers": [
+    "Taste the sweet air",
+    "Threaten other species",
+    "Attract female mates"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "What scientific suborder does the family Hyaenidae belong to?",
+   "correct_answer": "Feliformia",
+   "incorrect_answers": [
+    "Haplorhini",
+    "Caniformia",
+    "Ciconiiformes"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "What is the scientific name of the cheetah?",
+   "correct_answer": "Acinonyx jubatus",
+   "incorrect_answers": [
+    "Panthera onca",
+    "Lynx rufus",
+    "Felis catus"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "Which of these is a colony of polyps and not a jellyfish?",
+   "correct_answer": "Portuguese Man-of-War",
+   "incorrect_answers": [
+    "Sea Wasp",
+    "Irukandji",
+    "Sea Nettle"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "The dish Fugu, is made from what family of fish?",
+   "correct_answer": "Pufferfish",
+   "incorrect_answers": [
+    "Bass",
+    "Salmon",
+    "Mackerel"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "What is the national bird of Bahrain?",
+   "correct_answer": "Bulbul",
+   "incorrect_answers": [
+    "Hummingbird",
+    "Falcon",
+    "Sparrow"
+   ]
+  },
+  {
+   "category": "Animals",
+   "questionType": "multiple",
+   "question": "Which of these animals are not real?",
+   "correct_answer": "Nemean Lion",
+   "incorrect_answers": [
+    "Sea Dragon",
+    "Tasmanian Devil",
+    "Giant Squid"
+   ]
+  }
+ ],
+ "Vehicles": [
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "The Italian automaker Lamborghini uses what animal as its logo?",
+   "correct_answer": "Bull",
+   "incorrect_answers": [
+    "Bat",
+    "Horse",
+    "Snake"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "How many wheels does a unicycle have?",
+   "correct_answer": "1",
+   "incorrect_answers": [
+    "4",
+    "3",
+    "6"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "What do the 4 Rings in Audi's Logo represent?",
+   "correct_answer": "Previously independent automobile manufacturers",
+   "incorrect_answers": [
+    "States in which Audi makes the most sales",
+    "Main cities vital to Audi",
+    "Countries in which Audi makes the most sales"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "Where are the cars of the brand \"Ferrari\" manufactured?",
+   "correct_answer": "Italy",
+   "incorrect_answers": [
+    "Romania",
+    "Germany",
+    "Russia"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "What manufacturer made the car used in Back to the Future?",
+   "correct_answer": "DeLorean",
+   "incorrect_answers": [
+    "Ford",
+    "Toyota",
+    "Daihatsu"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
+   "correct_answer": "Scorpion",
+   "incorrect_answers": [
+    "Snake",
+    "Bull",
+    "Horse"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "The British Rail Class 700, Class 707 and the Class 717 are part of what train family?",
+   "correct_answer": "Desiro City",
+   "incorrect_answers": [
+    "Networker",
+    "Aventra",
+    "Electrostar"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "Complete the following analogy: Audi is to Volkswagen as Infiniti is to ?",
+   "correct_answer": "Nissan",
+   "incorrect_answers": [
+    "Honda",
+    "Hyundai",
+    "Subaru"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "Volkswagen's legendary VR6 engine has cylinders positioned at what degree angle?",
+   "correct_answer": "15 Degree",
+   "incorrect_answers": [
+    "30 Degree",
+    "45 Degree",
+    "90 Degree"
+   ]
+  },
+  {
+   "category": "Vehicles",
+   "questionType": "multiple",
+   "question": "Jaguar Cars was previously owned by which car manfacturer?",
+   "correct_answer": "Ford",
+   "incorrect_answers": [
+    "Chrysler",
+    "General Motors",
+    "Fiat"
+   ]
+  }
+ ],
+ "Comics": [
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "In Calvin and Hobbes, what is the name of the babysitter's boyfriend?",
+   "correct_answer": "Charlie",
+   "incorrect_answers": [
+    "Dave",
+    "Charles",
+    "Nathaniel"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "What is the real name of the \"Master Of Magnetism\" Magneto?",
+   "correct_answer": "Max Eisenhardt",
+   "incorrect_answers": [
+    "Charles Xavier",
+    "Pietro Maximoff",
+    "Johann Schmidt"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "Which universe crossover was introduced in the \"Sonic the Hedgehog\" comic issue #247?",
+   "correct_answer": "Mega Man",
+   "incorrect_answers": [
+    "Super Mario Brothers",
+    "Alex Kidd",
+    "Super Monkey Ball"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "In what year did the first \"The Walking Dead\" comic come out?",
+   "correct_answer": "2003",
+   "incorrect_answers": [
+    "2001",
+    "2006",
+    "1999"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "What's the weakness of american vampires (Scott Snyder's American Vampire)?",
+   "correct_answer": "Gold",
+   "incorrect_answers": [
+    "Sunlight",
+    "Wood",
+    "Silver"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "When was the Garfield comic first published?",
+   "correct_answer": "1978",
+   "incorrect_answers": [
+    "1982",
+    "1973",
+    "1988"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "Who authored The Adventures of Tintin?",
+   "correct_answer": "Hergé",
+   "incorrect_answers": [
+    "E.P. Jacobs",
+    "Rin Tin Tin",
+    "Chic Young"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "What year was the first San Diego Comic-Con?",
+   "correct_answer": "1970",
+   "incorrect_answers": [
+    "2000",
+    "1990",
+    "1985"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "Who was the inspiration for Cuthbert Calculus in the Tintin series?",
+   "correct_answer": "Auguste Picard",
+   "incorrect_answers": [
+    "Jacques Piccard",
+    "Will Morris",
+    "J. Cecil Maby"
+   ]
+  },
+  {
+   "category": "Entertainment: Comics",
+   "questionType": "multiple",
+   "question": "In the Marvel Universe, the planet of Svartalfheim is home to what race?",
+   "correct_answer": "Dark Elves",
+   "incorrect_answers": [
+    "Frost Giants",
+    "Kronans",
+    "Skrulls"
+   ]
+  }
+ ]
+}

@@ -1,8 +1,7 @@
 import express from "express";
-const router = express.Router();
 import {
   createUser,
-  getAllUsers,
+  loginUser,
   updateCurrentPoints,
   getSingleUserCurrentPoints,
   updatePrePoints,
@@ -10,41 +9,47 @@ import {
   getPreviousPoints,
   getTotalPoints,
   updateUserData,
-  updatePassword,
-  deleteAccount
+  verifyReset,
+  resetPassword,
+  deleteAccount,
 } from "../controllers/userControllers.js";
 
-// CreateUser -POST http://localhost:5000/api/v1/user/create
+const router = express.Router();
+
+// POST /api/v1/users/create
 router.post("/create", createUser);
 
-// GET- all users http://localhost:5000/api/v1/users
-router.get("/", getAllUsers);
+// POST /api/v1/users/login  { email, password }
+router.post("/login", loginUser);
 
-//GET - single user http://localhost:5000/api/v1/user/getCorrentPoints/:id
+// GET /api/v1/users/getCurrentPoints/:id  (returns the user, without password)
 router.get("/getCurrentPoints/:id", getSingleUserCurrentPoints);
 
-// PUT - update Points http://localhost:5000/api/v1/users/updateCurrentPoints/:id
+// PUT /api/v1/users/updateCurrentPoints/:id
 router.put("/updateCurrentPoints/:id", updateCurrentPoints);
 
-//PUT - update PreviousPoints http://localhost:5000/api/v1/users/updateGkQuestions/previousPoints
+// PUT /api/v1/users/updateGkQuestions/previousPoints/:id
 router.put("/updateGkQuestions/previousPoints/:id", updatePrePoints);
 
-//PUT - update totalPoints http://localhost:5000/api/v1/users/updateGKQuestions/totalPoints
+// PUT /api/v1/users/updateGKQuestions/totalPoints/:id
 router.put("/updateGKQuestions/totalPoints/:id", updateTotalPoints);
 
-//GET - http://localhost:5000/api/v1/users/getGkQuestions/previousPoints/:id
+// GET /api/v1/users/getGkQuestions/previousPoints/:id
 router.get("/getGkQuestions/previousPoints/:id", getPreviousPoints);
 
-//GET - http://localhost:5000/api/v1/users/getGkQuestions/totalPoints/:id
+// GET /api/v1/users/getGkQuestions/totalPoints/:id
 router.get("/getGkQuestions/totalPoints/:id", getTotalPoints);
 
-//PUT - http://localhost:5000/api/v1/users/editedUserData/:id
+// PUT /api/v1/users/editedUserData/singleUser/:id
 router.put("/editedUserData/singleUser/:id", updateUserData);
 
-//PATCH -http://localhost:5000/api/v1/users/forgotPassword/:id
-router.patch("/forgotPassword/:id", updatePassword);
+// POST /api/v1/users/forgotPassword/verify  { email, ph }
+router.post("/forgotPassword/verify", verifyReset);
 
+// PATCH /api/v1/users/forgotPassword  { email, ph, password }
+router.patch("/forgotPassword", resetPassword);
 
-//Delete -http://locahost:5000/api/v1/users/deleteAccont/:id
-router.delete("/deleteAccount/:id", deleteAccount)
+// DELETE /api/v1/users/deleteAccount/:id
+router.delete("/deleteAccount/:id", deleteAccount);
+
 export default router;

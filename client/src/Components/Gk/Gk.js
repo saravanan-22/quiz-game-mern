@@ -8,6 +8,7 @@ import Col from "react-bootstrap/Col";
 import { CartContext } from "../Context/Context";
 import { useNavigate } from "react-router-dom";
 import image from "../images/quiz.jpg";
+import { API } from "../../api";
 
 function shuffleArray(array) {
   const newArray = [...array];
@@ -116,7 +117,7 @@ const Gk = () => {
            // update previous value in db-------------------
         axios
         .put(
-          `https://muddy-bat-moccasins.cyclic.cloud/api/v1/users/updateGkQuestions/previousPoints/${userId}`,
+          `${API}/users/updateGkQuestions/previousPoints/${userId}`,
           {
             prevPoint: preValues,
           }
@@ -136,7 +137,7 @@ const Gk = () => {
           // Update total points in your API or wherever it's needed
           axios
             .put(
-              `https://muddy-bat-moccasins.cyclic.cloud/api/v1/users/updateGKQuestions/totalPoints/${userId}`,
+              `${API}/users/updateGKQuestions/totalPoints/${userId}`,
               {
                 gkTotalPoints: totalValue,
               }
@@ -192,7 +193,7 @@ const Gk = () => {
 
           axios
             .put(
-              `https://muddy-bat-moccasins.cyclic.cloud/api/v1/users/updateCurrentPoints/${userId}`,
+              `${API}/users/updateCurrentPoints/${userId}`,
               {
                 currentPoints: updatedPoints,
               }

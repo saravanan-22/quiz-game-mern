@@ -9,49 +9,46 @@ import "./login.css";
 import { useState } from "react";
 import axios from "axios";
 import background from "../../images/login_background.jpg";
+import { API } from "../../../api";
 
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [users, setUsers] = useState([]);
   const [loginError, setLoginError] = useState("");
   const navigate = useNavigate();
 
   // submitBtn-----------------------------------------------------------------------------------------------------
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoginError("");
     axios
-      .get("https://muddy-bat-moccasins.cyclic.cloud/api/v1/users")
+      .post(`${API}/users/login`, { email, password })
       .then((res) => {
-        const fetchedUsers = res.data;
-        const { data } = fetchedUsers;
-        const user = data.find(
-          (user) => user.email === email && user.password === password
-        );
-
-        if (user) {
-          localStorage.setItem("uid", user._id);
-          alert("Login completed successfully. Welcome!");
-          navigate("/Home");
-          setTimeout(() => {
-            window.location.reload();
-          }, 4000); 
-          
-        } else {
-          setLoginError("Email or password doesn't match");
-        }
+        const user = res.data.data;
+        localStorage.setItem("uid", user._id);
+        alert("Login completed successfully. Welcome!");
+        navigate("/Home");
+        setTimeout(() => {
+          window.location.reload();
+        }, 4000);
       })
       .catch((err) => {
         console.error(err);
-        setLoginError("An error occurred during login");
+        if (err.response && err.response.status === 401) {
+          setLoginError("Email or password doesn't match");
+        } else {
+          setLoginError(
+            "Couldn't reach the server. It may be waking up (free hosting), so try again in about 30 seconds."
+          );
+        }
       });
   };
 
   const setDefaultValues = (e) => {
     e.preventDefault();
-    setEmail("saravanan@gmail.com")
-    setPassword("1234567")
+    setEmail("demo@quizapp.dev")
+    setPassword("demo1234")
   };
 
   return (

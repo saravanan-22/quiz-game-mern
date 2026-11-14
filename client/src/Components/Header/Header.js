@@ -9,6 +9,7 @@ import image from "../images/logo.svg.png";
 import Avatar from "@mui/material/Avatar";
 import Chip from "@mui/material/Chip";
 import axios from "axios";
+import { API } from "../../api";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -20,30 +21,25 @@ const Header = () => {
 
   useEffect(() => {
 
-    axios
-    .get("https://muddy-bat-moccasins.cyclic.cloud/api/v1/users")
-    .then((res) => {
-      const fetchedUsers = res.data.data;
-      setUsersData(fetchedUsers);
-
-      // Find the user by email
-      const userId = localStorage.getItem("uid");
-      setUid(userId);
-      const user = fetchedUsers.find((user) => user._id === uid);
-      // console.log(user);
-
-      if (user) {
-        setFoundUser(user);
-          setUserName(user.username)
-          setUserPicture(user.profileImage)
-      } else {
-        setFoundUser(null);
-      }
-    })
-    .catch((err) => {
-      console.error("Error fetching user data:", err);
+    const userId = localStorage.getItem("uid");
+    setUid(userId);
+    if (!userId) {
       setFoundUser(null);
-    });
+      return;
+    }
+    axios
+      .get(`${API}/users/getCurrentPoints/${userId}`)
+      .then((res) => {
+        const user = res.data.data;
+        setUsersData([user]);
+        setFoundUser(user);
+        setUserName(user.username);
+        setUserPicture(user.profileImage);
+      })
+      .catch((err) => {
+        console.error("Error fetching user data:", err);
+        setFoundUser(null);
+      });
   }, [uid]);
 
   const handleProfileClick = () => {

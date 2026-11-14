@@ -23,6 +23,15 @@ import {
 } from "../controllers/quizController.js";
 const router = express.Router();
 
+// Adding questions is admin-only: send the ADMIN_KEY env value in the
+// "x-admin-key" header. Without ADMIN_KEY set, these routes are disabled.
+const requireAdmin = (req, res, next) => {
+  const key = process.env.ADMIN_KEY;
+  if (key && req.get("x-admin-key") === key) return next();
+  return res.status(403).json({ success: false, message: "Admin key required" });
+};
+router.use("/create", requireAdmin);
+
 // POST-allGkQuestion -http://localhost:5000/api/v1/questions/create/
 router.post("/create/gkQuestions", postAllGkQuestions);
 
