@@ -2,7 +2,7 @@
 # In Render: New > Blueprint > pick this repo, then paste CONNECTION_URL.
 services:
   - type: web
-    name: mern-quiz-app-api
+    name: quiz-game-mern-api
     runtime: node
     plan: free
     rootDir: server

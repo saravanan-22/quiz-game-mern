@@ -2,14 +2,14 @@
 
 A full-stack quiz game where users sign up, pick a category, answer timed questions and track their scores.
 
-**▶ Live demo: [saravanan-22.github.io/mern-quiz-app](https://saravanan-22.github.io/mern-quiz-app/)**
+**▶ Live demo: [saravanan-22.github.io/quiz-game-mern](https://saravanan-22.github.io/quiz-game-mern/)**
 Try it instantly with the **demo account**: `demo@quizapp.dev` / `demo1234` (or click "Login" under *user credentials*).
 
 > The API runs on Render's free plan, which sleeps when idle. The first request after a quiet period can take up to a minute while it wakes up.
 
 <p>
   <img src="screenshots/login.png" width="49%" alt="Login" />
-  <img src="https://raw.githubusercontent.com/saravanan-22/react-portfolio/main/src/images/quiz_image1.jpg" width="49%" alt="Quiz home" />
+  <img src="https://raw.githubusercontent.com/saravanan-22/old-portfolio-react/main/src/images/quiz_image1.jpg" width="49%" alt="Quiz home" />
 </p>
 
 ## Features
@@ -58,8 +58,8 @@ render.yaml      Render Blueprint for the API
 
 ## Run locally
 ```bash
-git clone https://github.com/saravanan-22/mern-quiz-app.git
-cd mern-quiz-app
+git clone https://github.com/saravanan-22/quiz-game-mern.git
+cd quiz-game-mern
 
 # backend
 cd server && npm install

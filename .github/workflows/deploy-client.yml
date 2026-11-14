@@ -35,7 +35,7 @@ jobs:
           # Set in repo Settings > Secrets and variables > Actions > Variables
           REACT_APP_API_URL: ${{ vars.API_URL }}
       # GitHub Pages serves 404.html for unknown paths, so deep links like
-      # /mern-quiz-app/Home still load the React app.
+      # /quiz-game-mern/Home still load the React app.
       - run: cp build/index.html build/404.html && touch build/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
